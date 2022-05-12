@@ -1,0 +1,43 @@
+#productGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#productMargin {
+    margin: 45px auto;
+}
+
+.oShadow {
+    -webkit-box-shadow: -4px 10px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 10px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: -4px 10px 21px -6px rgba(0,0,0,0.75);
+}
+
+#productDesc {
+    background-color: #343a40;
+    color: white;
+}
+
+
+#productDesc button {
+    background-color: #D61A3C;
+    border: none;
+}
+
+.textBotl {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+}
+
+.textBotr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.detailMargin {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: white;
+}
